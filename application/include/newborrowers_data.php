@@ -15,7 +15,7 @@
 <?php
 if(isset($_POST['save']))
 {
-$fname =  mysqli_real_escape_string($link, $_POST['fname']);
+$fname =  mysqli_real_escape_string($link, $_POST['fname']);``
 $lname = mysqli_real_escape_string($link, $_POST['lname']);
 $email = mysqli_real_escape_string($link, $_POST['email']);
 $phone = mysqli_real_escape_string($link, $_POST['phone']);
